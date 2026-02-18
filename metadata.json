@@ -1,0 +1,9 @@
+
+{
+  "name": "Buy Buzz Data Spot",
+  "short_name": "BuyBuzz",
+  "description": "Ghana's premier destination for instant mobile data top-ups and digital services.",
+  "theme_color": "#4f46e5",
+  "background_color": "#f9fafb",
+  "display": "standalone"
+}
