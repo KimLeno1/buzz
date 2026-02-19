@@ -34,3 +34,25 @@ export interface WalletTransaction {
 export interface CartItem extends Dataset {
   quantity: number;
 }
+
+// Added AnalysisMode enum to define Gemini models for codebase analysis
+export enum AnalysisMode {
+  Fast = 'gemini-3-flash-preview',
+  Deep = 'gemini-3-pro-preview'
+}
+
+// Added ProjectFile interface for workspace file management
+export interface ProjectFile {
+  name: string;
+  path: string;
+  content: string;
+  size: number;
+  type: string;
+}
+
+// Added ChatMessage interface for structured assistant interactions
+export interface ChatMessage {
+  role: 'user' | 'model';
+  text: string;
+  timestamp: Date;
+}
