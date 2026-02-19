@@ -129,7 +129,7 @@ const DatasetCard: React.FC<DatasetCardProps> = ({ dataset, onAddToCart }) => {
 
           <button 
             onClick={() => onAddToCart(dataset)}
-            className="w-full py-3 bg-indigo-600 text-white font-bold text-sm rounded-lg hover:bg-indigo-700 transition-all flex items-center justify-center gap-2 group/btn shadow-md active:scale-95"
+            className="w-full py-3 bg-emerald-600 text-white font-bold text-sm rounded-lg hover:bg-emerald-700 transition-all flex items-center justify-center gap-2 group/btn shadow-md active:scale-95"
           >
             <ShoppingBag size={16} />
             Buy Now
