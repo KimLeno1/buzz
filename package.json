@@ -1,4 +1,3 @@
-
 {
   "name": "buy-buzz-data-spot",
   "private": true,
@@ -11,16 +10,22 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "recharts": "^3.7.0",
-    "react": "^19.2.4",
+    "@tailwindcss/vite": "^4.2.1",
+    "clsx": "^2.1.1",
     "lucide-react": "^0.574.0",
-    "react-dom": "^19.2.4"
+    "motion": "^12.34.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "recharts": "^3.7.0",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "terser": "^5.39.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
